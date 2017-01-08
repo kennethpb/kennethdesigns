@@ -1,0 +1,53 @@
+body {
+	width: 100%;
+	font-size: 100%;
+}
+
+.title {
+	margin: 7%;
+}
+
+h2 {
+	color: #666;
+	font-family: Arial;
+	font-size: 2em;
+	font-weight: normal;
+	text-align: center;
+}
+
+p {
+	color: #666;
+	font-family: Arial;
+	font-size: 0.5em;
+	font-style: Italic;
+	font-weight: normal;
+	text-align: center;
+}
+
+.image {
+	text-align: center;
+}
+
+
+/*iPhone Responsive*/
+@media only screen
+and (min-width: 150px)
+and (max-width: 600px)
+{
+	div img {
+		width: 90%;
+	}	
+
+}
+
+/*iPad Responsive*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+{
+	.image img {
+		width: 90%;
+	} 
+
+ 
+}
